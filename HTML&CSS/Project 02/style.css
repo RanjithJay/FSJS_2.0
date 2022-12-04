@@ -1,0 +1,96 @@
+:root{
+    --pink: #BA0CC5;
+    --white: #FFFFFF;
+    --black: #0000;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1440;
+    font-family: Montserrat;
+}
+
+.container{
+    background: url("./assets/bg.png") no-repeat;
+    background-size: contain;
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.logo{
+    height: 30px;
+}
+
+.line{
+    border-right: 2px solid var(--white);
+    height: 5vh;
+    padding-left: 50px;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color:var(--white);
+    background-color: black;
+    padding:10px 50px;
+    
+}
+
+.list{
+    display: flex;  
+    padding-left: 50px;
+}
+
+.grow-list{
+    flex-grow: 4;
+}
+
+.list-item{
+    list-style: none;
+    padding-right: 50px;
+    font-size: 10px;
+}
+
+.hero{
+    text-align: center;
+    padding-top: 100px;
+    color: var(--white);
+    padding:5% 20%;
+}
+
+.hero h1{
+    font-size: 50px;
+    padding-bottom: 1%;
+}
+
+.hero p{
+    padding-bottom: 5%;
+}
+
+button{
+    background-color: var(--pink);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    padding: 7px 15px;
+}
+
+.button-small{
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.button-large{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 15px;
+}
